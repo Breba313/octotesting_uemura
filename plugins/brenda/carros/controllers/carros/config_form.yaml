@@ -1,0 +1,10 @@
+name: Carros
+form: $/brenda/carros/models/carro/fields.yaml
+modelClass: Brenda\Carros\Models\Carro
+defaultRedirect: brenda/carros/carros
+create:
+    redirect: 'brenda/carros/carros/update/:id'
+    redirectClose: brenda/carros/carros
+update:
+    redirect: brenda/carros/carros
+    redirectClose: brenda/carros/carros

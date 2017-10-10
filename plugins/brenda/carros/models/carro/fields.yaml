@@ -1,0 +1,22 @@
+fields:
+    marca:
+        label: Marca
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    modelo:
+        label: Modelo
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    anno:
+        label: Año
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    esta_disponible:
+        label: 'Esta Disponible?'
+        span: auto
+        type: switch

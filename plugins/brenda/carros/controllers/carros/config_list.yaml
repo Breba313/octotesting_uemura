@@ -1,0 +1,11 @@
+list: $/brenda/carros/models/carro/columns.yaml
+modelClass: Brenda\Carros\Models\Carro
+title: Carros
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'brenda/carros/carros/update/:id'

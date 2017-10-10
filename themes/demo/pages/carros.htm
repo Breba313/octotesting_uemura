@@ -1,0 +1,19 @@
+title = "Carros"
+url = "/carros/:page?"
+layout = "default"
+description = "Listado de Carros"
+meta_title = "Listado de Carros"
+is_hidden = 0
+
+[builderList]
+modelClass = "Brenda\Carros\Models\Carro"
+scope = "-"
+displayColumn = "marca"
+noRecordsMessage = "No records found"
+detailsPage = "carrosdetalle"
+detailsKeyColumn = "id"
+detailsUrlParameter = "id"
+recordsPerPage = 3
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

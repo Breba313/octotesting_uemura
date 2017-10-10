@@ -1,0 +1,14 @@
+title = "CarrosDetalle"
+url = "/carrosdetalle/:id?"
+layout = "default"
+description = "Detalle de los carros"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Brenda\Carros\Models\Carro"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "modelo"
+notFoundMessage = "Record not found"
+==
+{% component 'builderDetails' %}

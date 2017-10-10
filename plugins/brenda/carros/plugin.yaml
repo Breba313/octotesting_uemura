@@ -1,0 +1,11 @@
+plugin:
+    name: 'brenda.carros::lang.plugin.name'
+    description: 'brenda.carros::lang.plugin.description'
+    author: Brenda
+    icon: oc-icon-cab
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Carros
+        url: brenda/carros/carros
+        icon: icon-cab

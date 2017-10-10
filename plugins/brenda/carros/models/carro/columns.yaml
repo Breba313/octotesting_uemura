@@ -1,0 +1,14 @@
+columns:
+    marca:
+        label: Marca
+        type: text
+        searchable: true
+        sortable: true
+    modelo:
+        label: Modelo
+        type: text
+        searchable: true
+        sortable: true
+    esta_disponible:
+        label: 'Esta Disponible'
+        type: switch

@@ -1,0 +1,19 @@
+1507653847a:1:{s:10:"carros.htm";a:12:{s:8:"fileName";s:10:"carros.htm";s:7:"content";s:448:"title = "Carros"
+url = "/carros/:page?"
+layout = "default"
+description = "Listado de Carros"
+meta_title = "Listado de Carros"
+is_hidden = 0
+
+[builderList]
+modelClass = "Brenda\Carros\Models\Carro"
+scope = "-"
+displayColumn = "marca"
+noRecordsMessage = "No records found"
+detailsPage = "carrosdetalle"
+detailsKeyColumn = "id"
+detailsUrlParameter = "id"
+recordsPerPage = 3
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}";s:5:"mtime";i:1507653245;s:6:"markup";s:29:"{% component 'builderList' %}";s:4:"code";N;s:5:"title";s:6:"Carros";s:3:"url";s:14:"/carros/:page?";s:6:"layout";s:7:"default";s:11:"description";s:17:"Listado de Carros";s:10:"meta_title";s:17:"Listado de Carros";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:9:{s:10:"modelClass";s:26:"Brenda\Carros\Models\Carro";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"marca";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:13:"carrosdetalle";s:16:"detailsKeyColumn";s:2:"id";s:19:"detailsUrlParameter";s:2:"id";s:14:"recordsPerPage";s:1:"3";s:10:"pageNumber";s:11:"{{ :page }}";}}}
